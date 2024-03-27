@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+.container {
+    position: fixed; /* Set the position to fixed */
+    width: 100%;
+    max-width: 1480px;
+    overflow-wrap: break-word; /* Break long words to prevent overflow */
+    background-color: #000000; /* Grey background color */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em; /* Adjust font size of the heading */
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: left; /* Align h1 to the left */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+nav ul.top-right {
+    text-align: right; /* Align links to the right */
+}
+
+nav ul.top-right li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul.top-right li a {
+    text-decoration: none;
+    color: #ffffff; /* Light text color */
+    transition: color 0.3s ease;
+}
+
+nav ul.top-right li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+
+#intro {
+    background-color: #594E42; /* Dark background color */
+    padding-top: 130px; /* Add padding to the top of the intro section */
+    padding-bottom: 40px; /* Add padding to the top of the intro section */
+    width: 100%; /* Set the width of the content */
+}
+
+.intro-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-container img {
+    max-width: 300px;
+    border-radius: 50%; /* Make the image round */
+    margin-right: 50px;
+}
+
+.details {
+    background-color: #ffffff; /* White background color */
+    color: #000000; /* Black text color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Set the width to 100% */
+    max-width: 1600px; /* Set a maximum width */
+    margin: 0 auto; /* Center the white rectangle */
+}
+
+.content {
+    display: flex; /* Use flexbox to position items */
+    align-items: center; /* Center items vertically */
+}
+
+.profile-photo {
+    max-width: 150px; /* Adjust the max width of the photo */
+    border-radius: 50%; /* Make the photo round */
+    margin-right: 20px; /* Add margin to separate photo from text */
+}
+
+.text {
+    flex: 1; /* Allow text to grow to fill available space */
+}
+
+.linkedin-icon {
+    margin-left: 20px; /* Add some spacing between the details and icon */
+}
+
+.linkedin-icon img {
+    width: 30px; /* Adjust the width of the LinkedIn icon */
+    height: auto;
+}
+
+#about-me {
+    width: 100%;
+    max-width: 1600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the content within the section */
+    background-color: #000000; /* Grey background for the academic details section */
+    padding: 0px; /* Add padding to the section */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Set the width of the content */
+}
+
+.about-me-content h2 {
+    margin-top: 0; /* Remove top margin for the heading */
+}
+
+.about-me-content p {
+    margin-bottom: 20px; /* Remove bottom margin for the paragraph */
+}
+
+.about-me-container {
+    max-width: auto;
+    background-color: #000000; /* Grey background color */
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#academic-details {
+    max-width: auto; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the content within the section */
+    background-color: #594E42; /* Grey background for the academic details section */
+    padding: 5px; /* Add padding to the section */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+#academic-details table {
+    width: 100%; /* Make the table fill the width of the section */
+    background-color: #ffffff; /* White background for the table */
+    color: #000000; /* Black text color */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+}
+
+#academic-details th,
+#academic-details td {
+    padding: 10px; /* Add padding to table cells */
+    border: 1px solid #dddddd; /* Add border to table cells */
+}
+
+#academic-details th {
+    background-color: #f0f0f0; /* Light grey background for table header */
+}
+#academic-details h2 {
+    background-color: #594E42; /* Dark grey background color for the heading */
+    color: #fff; /* White text color for the heading */
+    padding: 5px; /* Add padding to the heading */
+    border-radius: 0px; /* Add border radius for rounded corners */
+}
+
+
+#research-experience {
+    max-width: auto; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the content within the section */
+    background-color: #ffffff; /* Grey background color */
+    padding: 0px; /* Add padding to the section */
+    border-radius: 0px; /* Add border radius for rounded corners */
+    color: #000000; /* Black text color */
+
+}
+
+#research-experience h2 {
+    background-color: #594E42; /* Dark grey background color for the heading */
+    color: #fff; /* White text color for the heading */
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 0px; /* Add border radius for rounded corners */
+}
+
+.research-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly across the container */
+}
+
+.research-box {
+    width: calc(33.33% - 20px); /* Set width for each box */
+    background-color: #ffffff; /* Grey background color */
+    padding: 20px; /* Add padding to the boxes */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.research-box img {
+    max-width: 80%; /* Set maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make sure image doesn't have any extra space */
+    margin: 0 auto 10px; /* Center image and add spacing below it */
+}
+
+
+.research-box p {
+    text-align: center; /* Center-align the description */
+    margin: 0; /* Remove default margin for paragraphs */
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Add padding to the description */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.research-box h3 {
+    margin-bottom: 10px; /* Add spacing below the heading */
+    font-size: 1.2em; /* Adjust font size of the heading */
+}
+
+.star-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default padding */
+    text-align: left; /* Align list items to the left */
+}
+
+.star-list li:before {
+    content: "\2605"; /* Unicode character for star symbol */
+    color: gold; /* Color of the star */
+    margin-right: 5px; /* Spacing between the star and the list item */
+}
+
+#academic-achievements {
+    max-width: auto; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the content within the section */
+    background-color: #ffffff; /* Grey background color */
+    padding: 0px; /* Add padding to the section */
+    border-radius: 0px; /* Add border radius for rounded corners */
+    color: #000000; /* Black text color */
+}
+
+
+#academic-achievements ul {
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove default list style */
+    margin-bottom: 20px; /* Add padding at the bottom of the list */
+}
+
+#academic-achievements ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+#academic-achievements ul li strong {
+    font-weight: bold; /* Ensure date text is bold */
+}
+
+#academic-achievements h2 {
+    background-color: #594E42; /* Dark grey background color for the heading */
+    color: #fff; /* White text color for the heading */
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 0px; /* Add border radius for rounded corners */
+}
+
+
+#assistance {
+    max-width: auto; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the content within the section */
+    background-color: #ffffff; /* Grey background color */
+    padding: 0px; /* Add padding to the section */
+    border-radius: 0px; /* Add border radius for rounded corners */
+    color: #000000; /* Black text color */
+}
+
+
+#assistance ul {
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove default list style */
+    margin-bottom: 20px; /* Add padding at the bottom of the list */
+}
+
+#assistance ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+#assistance ul li strong {
+    font-weight: bold; /* Ensure date text is bold */
+}
+
+#assistance h2 {
+    background-color: #594E42; /* Dark grey background color for the heading */
+    color: #fff; /* White text color for the heading */
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 0px; /* Add border radius for rounded corners */
+}
+
+
+/* You can move these styles to an external CSS file */
+#research {
+    text-align: center;
+}
+
+.image-collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-collage img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+#research h2 {
+    background-color: #594E42; /* Dark grey background color for the heading */
+    color: #fff; /* White text color for the heading */
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 0px; /* Add border radius for rounded corners */
+}
+
+.research-text-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.research-text {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.research-text p {
+    font-size: 16px;
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+
+#contact {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add padding to the section */
+}
+
+#contact h2 {
+     width: 100%;
+    background-color: #004F98; /* Dark grey background color for the heading */
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 0px; /* Add border radius for rounded corners */
+    text-align: center; /* Center the heading */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px; /* Add spacing between form fields */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Make form fields fill the container */
+    padding: 10px; /* Add padding to form fields */
+    border: 1px solid #ccc; /* Add border to form fields */
+    border-radius: 5px; /* Add border radius to form fields */
+}
+
+button[type="submit"] {
+    width: 103%; /* Make the submit button fill the container */
+    padding: 10px; /* Add padding to the submit button */
+    background-color: #007bff; /* Set the background color of the submit button */
+    color: #fff; /* Set the text color of the submit button */
+    border: none; /* Remove border from the submit button */
+    border-radius: 5px; /* Add border radius to the submit button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color of the submit button on hover */
+}
+
+.contact-info {
+    text-align: center; /* Center the content */
+    color: #fff;
+}
+
+.contact-info p {
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+
+
+
