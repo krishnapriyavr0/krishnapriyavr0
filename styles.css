@@ -134,8 +134,7 @@ nav ul.top-right li a:hover {
     margin-bottom: 20px; /* Remove bottom margin for the paragraph */
 }
 
-.about-me-content p a {
-    text-decoration: none;
+#about-me a {
     color: #00bfff; /* Light blue color */
 }
 
