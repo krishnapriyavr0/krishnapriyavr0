@@ -409,12 +409,12 @@ button[type="submit"]:hover {
 
 
 .blue-link {
-    color: blue; /* Set the text color to blue */
+    color: #007bff; /* Set the text color to blue */
     text-decoration: underline; /* Add underline to indicate it's a link */
 }
 
 .blue-link:hover {
-    color: darkblue; /* Change color on hover */
+    color: #0056b3; /* Change color on hover */
     text-decoration: underline; /* Maintain underline on hover */
 }
 
