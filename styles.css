@@ -7,21 +7,18 @@ body {
 }
 
 .container {
-    position: fixed; /* Set the position to fixed */
-    width: 100%;
-    max-width: 1480px;
+    max-width: auto;
     overflow-wrap: break-word; /* Break long words to prevent overflow */
     background-color: #000000; /* Grey background color */
     margin: 0 auto;
-    padding: 20px;
-    display: flex;
+    padding: 10px;
     justify-content: space-between;
-    font-size: 1em; /* Adjust font size of the heading */
+    font-size: 1.3em; /* Adjust font size of the heading */
 }
 
 .container h1 {
-    margin: 0;
-    font-size: 24px;
+    margin: 0px;
+    font-size: 30px;
     text-align: left; /* Align h1 to the left */
 }
 
@@ -53,7 +50,7 @@ nav ul.top-right li a:hover {
 
 #intro {
     background-color: #594E42; /* Dark background color */
-    padding-top: 130px; /* Add padding to the top of the intro section */
+    padding-top: 80px; /* Add padding to the top of the intro section */
     padding-bottom: 40px; /* Add padding to the top of the intro section */
     width: 100%; /* Set the width of the content */
 }
@@ -80,7 +77,6 @@ nav ul.top-right li a:hover {
     border-radius: 10px;
     text-align: left; /* Align text to the left */
     width: 100%; /* Set the width to 100% */
-    max-width: 1600px; /* Set a maximum width */
     margin: 0 auto; /* Center the white rectangle */
 }
 
@@ -123,7 +119,7 @@ nav ul.top-right li a:hover {
 .about-me-content {
     display: flex;
     flex-direction: column;
-    width: auto; /* Set the width of the content */
+    width: 100%; /* Set the width of the content */
 }
 
 .about-me-content h2 {
@@ -132,10 +128,6 @@ nav ul.top-right li a:hover {
 
 .about-me-content p {
     margin-bottom: 20px; /* Remove bottom margin for the paragraph */
-}
-
-#about-me a {
-    color: #00bfff; /* Light blue color */
 }
 
 .about-me-container {
